@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  string name;
+  cin>>name;
+  map<char,int> m;
+  for(char x:name){
+      m[x]++;
+  }
+  cout<<"number of zero:"<<m['0'];
+  cout<<"number of ones:"<<m['1'];
+  return 0;
+}
