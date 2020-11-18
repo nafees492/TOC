@@ -1,0 +1,15 @@
+N=input('Enter Number : ')
+S=['A','B']
+Current_State=S[0]
+Value=[ ]
+for i in N:
+    if(i=='0'):
+        Current_State=S[0]
+        g='1'
+    elif(i=='1'):
+        Current_State=S[1]
+        g='0'
+    Value.apend(g)
+print('Complement : ')
+for i in Value:
+    print(i,end=' ')
