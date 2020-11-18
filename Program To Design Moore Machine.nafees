@@ -1,0 +1,25 @@
+
+#include<iostream> 
+using namespace std; 
+int main() 
+{ 
+char states[2]={'A','B'}; 
+string s; 
+char current; 
+cout<<"Enter the string  : "; 
+cin>>s; 
+for(int i=0;i<s.length();i++) 
+{ 
+if(s[i]=='1') 
+{ 
+current=states[0]; 
+    cout<<"a"; 
+} 
+else 
+{ 
+current=states[1]; 
+cout<<"b"; 
+} 
+} 
+return 0; 
+} 
