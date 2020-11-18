@@ -1,0 +1,13 @@
+St=input(“Enter a string:”)
+State=[‘a’,’b’,’c’,’d’,’e’]
+Current=state[0]
+Final=state[4]
+For I in range(len(st)):
+		If st[i] in ‘abcd’:
+			Current=state[i+1]
+		Else:
+			Current=”none”
+If current in final:
+		Print(“valid”)
+Else:
+		Print(“no”)
